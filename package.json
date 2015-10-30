@@ -1,0 +1,29 @@
+{
+  "name": "tool-bar-config",
+  "main": "./lib/index",
+  "version": "0.0.1",
+  "description": "Configurable tool bar",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MunGell/atom-toolbar-config"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "keywords": [
+    "toolbar",
+    "tool-bar"
+  ],
+  "dependencies": {},
+  "packageDependencies": {
+    "tool-bar": "0.1.9"
+  },
+  "consumedServices": {
+    "tool-bar": {
+      "versions": {
+        "^0.1.0": "consumeToolBar"
+      }
+    }
+  }
+}
