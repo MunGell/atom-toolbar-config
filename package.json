@@ -1,7 +1,7 @@
 {
   "name": "tool-bar-config",
   "main": "./lib/index",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Configurable tool bar",
   "repository": {
     "type": "git",
